@@ -1,0 +1,16 @@
+cat: &cat
+  hair: '短毛'
+  name: '橘猫'
+  color: '橘白色'
+  age: 3
+  gender: '没有小鸡鸡'
+
+dog: &dog
+  hair: '长毛'
+  name: '土狗'
+  color: '黑色'
+  age: 2
+  gender: '有小鸡鸡'
+
+default:
+  <<: *cat
